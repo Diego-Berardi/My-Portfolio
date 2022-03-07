@@ -1,0 +1,52 @@
+@import "../../assets/scss/index.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-menu-btn {
+    font-size: 1.9rem;
+    cursor: pointer;
+  }
+
+  .desktop-nav {
+    display: none;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style-type: none;
+    li a {
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .header {
+    .desktop-nav {
+      display: flex;
+    }
+    .mobile-menu-btn {
+      display: none;
+    }
+  }
+}

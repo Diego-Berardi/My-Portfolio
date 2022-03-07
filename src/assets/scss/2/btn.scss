@@ -1,0 +1,34 @@
+.btn {
+  background-color: $backGround-color;
+  border: 1px solid white;
+  color: $text-color;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.home-btn {
+  border-radius: 10px;
+  font-size: 1.1rem;
+  transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+}
+
+.home-btn:hover {
+  background-color: white;
+  color: black;
+}
+.home-btn:active {
+  transform: scale(0.96);
+}
+
+.home-btn-red {
+  background-color: $red-theme;
+  border: 1px solid $red-theme;
+  position: relative;
+}
+
+.home-btn-red:hover {
+  background-color: #c71b27;
+  border: 1px solid #c71b27;
+
+  color: $text-color;
+}

@@ -1,0 +1,61 @@
+@import "../../assets/scss/index.scss";
+.home-section {
+  .home-div {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    width: 100%;
+    .bio-div {
+      margin-top: 10rem;
+      .title {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 2rem;
+        color: $red-theme;
+      }
+      .home-btn-div {
+        margin: 1rem 0;
+        display: flex;
+        gap: 1rem;
+      }
+    }
+    .CV-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      .CV-container {
+        width: 200px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .home-section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+
+    .home-div {
+      gap: 2rem;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      .bio-div {
+        margin: 0;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 850px) {
+  .home-section {
+    .home-div {
+      gap: 6rem;
+    }
+  }
+}
