@@ -7,7 +7,11 @@ const Form = () => {
       action="https://formsubmit.co/diego.berardi02@gmail.com"
       method="POST"
     >
-      <input type="hidden" name="_next" value="http://localhost:3000/" />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://diego-berardi.netlify.app/"
+      />
       <label htmlFor="name">
         <input
           className="form-input"

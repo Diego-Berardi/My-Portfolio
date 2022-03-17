@@ -1,5 +1,5 @@
-# My personal Portfolio https://jovial-goldberg-719129.netlify.app/
-see the website here: https://jovial-goldberg-719129.netlify.app/
+# My personal Portfolio https://diego-berardi.netlify.app/
+see the website here: https://diego-berardi.netlify.app/
 
 ## Getting Started with Create React App
 
