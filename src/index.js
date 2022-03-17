@@ -3,9 +3,13 @@ import ReactDOM from "react-dom";
 import "./assets/scss/index.scss";
 import App from "./App";
 
+import { AppProvider } from "./context";
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <AppProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </AppProvider>,
   document.getElementById("root")
 );

@@ -1,5 +1,10 @@
 @import "../../assets/scss/index.scss";
 .home-section {
+  min-height: 100vh;
+  button {
+    font-size: 1.1rem;
+  }
+  
   .home-div {
     display: flex;
     flex-direction: column;
@@ -7,11 +12,11 @@
     width: 100%;
     .bio-div {
       margin-top: 10rem;
-      .title {
-        font-size: 3rem;
+      .title-name {
+        font-size: 4rem;
       }
       p {
-        font-size: 2rem;
+        font-size: 3rem;
         color: $red-theme;
       }
       .home-btn-div {
@@ -26,7 +31,7 @@
       align-items: center;
       gap: 1rem;
       .CV-container {
-        width: 200px;
+        width: 15rem;
         img {
           width: 100%;
         }
@@ -39,7 +44,6 @@
   .home-section {
     display: flex;
     align-items: center;
-    min-height: 100vh;
 
     .home-div {
       gap: 2rem;
@@ -56,6 +60,13 @@
   .home-section {
     .home-div {
       gap: 6rem;
+    }
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .home-section {
+    .home-div {
+      gap: 8rem;
     }
   }
 }

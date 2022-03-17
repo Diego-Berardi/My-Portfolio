@@ -6,27 +6,27 @@
   cursor: pointer;
 }
 
-.home-btn {
+.btn-basic-white {
   border-radius: 10px;
-  font-size: 1.1rem;
   transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
 }
 
-.home-btn:hover {
+.btn-basic-white:hover {
   background-color: white;
   color: black;
 }
-.home-btn:active {
+.btn-basic-white:active {
   transform: scale(0.96);
 }
 
-.home-btn-red {
-  background-color: $red-theme;
+.btn-style-red {
+  background-color: $backGround-color;
   border: 1px solid $red-theme;
+  color: $red-theme;
   position: relative;
 }
 
-.home-btn-red:hover {
+.btn-style-red:hover {
   background-color: #c71b27;
   border: 1px solid #c71b27;
 

@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: $backGround-color;
@@ -14,4 +17,40 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.link {
+  transition: color 150ms ease-in-out;
+}
+.link:hover {
+  color: $red-theme;
+}
+.title {
+  margin: 2rem 0;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.color-red {
+  color: $red-theme;
+}
+
+.linkedin,
+.github {
+  transition: color 150ms ease-in-out;
+}
+.linkedin:hover {
+  color: rgb(0, 47, 255);
+}
+.github:hover {
+  color: rgb(146, 146, 146);
 }

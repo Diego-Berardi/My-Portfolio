@@ -1,24 +1,49 @@
 import React from "react";
 import "./mobile-menu.scss";
 
+import { useGlobalContext } from "../../context";
+
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+
 const MobileMenu = () => {
+  const { showMobileMenu, setShowMobileMenu } = useGlobalContext();
+
+  const toggleShowMobileMenu = () => {
+    setShowMobileMenu(!showMobileMenu);
+  };
+
   return (
-    <div className="mobile-menu">
-      <nav >
+    <div className={`mobile-menu ${showMobileMenu ? "active" : ""}`}>
+      <nav>
         <ul>
           <li>
-            <a href="">Home</a>
+            <a className="link" onClick={toggleShowMobileMenu} href="#home">
+              Home
+            </a>
           </li>
           <li>
-            <a href="">Work</a>
+            <a className="link" onClick={toggleShowMobileMenu} href="#work">
+              Work
+            </a>
           </li>
           <li>
-            <a href="">About Me</a>
-          </li>
-          <li>
-            <a href="">Contact Me</a>
+            <a
+              className="link"
+              onClick={toggleShowMobileMenu}
+              href="#contact-me"
+            >
+              Contact Me
+            </a>
           </li>
         </ul>
+        <div className="social">
+          <a href="">
+            <BsLinkedin className="linkedin" />
+          </a>
+          <a href="">
+            <BsGithub className="github" />
+          </a>
+        </div>
       </nav>
     </div>
   );

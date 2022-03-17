@@ -1,0 +1,7 @@
+// class for rubberband animation
+.rubberBand {
+  display: inline-block;
+  animation: rubberBand 1300ms ease-in-out ;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
