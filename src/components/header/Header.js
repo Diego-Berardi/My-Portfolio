@@ -40,7 +40,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/diego-berardi-095541202/"
+              href="https://www.linkedin.com/in/diego-berardi/"
               target="_blank"
             >
               <BsLinkedin className="linkedin" />

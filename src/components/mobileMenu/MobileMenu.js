@@ -37,10 +37,10 @@ const MobileMenu = () => {
           </li>
         </ul>
         <div className="social">
-          <a href="">
+          <a href="https://www.linkedin.com/in/diego-berardi/" target="_blank">
             <BsLinkedin className="linkedin" />
           </a>
-          <a href="">
+          <a href="https://github.com/Diego-Berardi" target="_blank">
             <BsGithub className="github" />
           </a>
         </div>
