@@ -1,7 +1,32 @@
 // class for rubberband animation
 .rubberBand {
   display: inline-block;
-  animation: rubberBand 1300ms ease-in-out ;
+  animation: rubberBand1 1300ms ease-in-out;
   animation-direction: normal;
   animation-fill-mode: both;
 }
+
+.fadeinRight-class {
+  opacity: 0;
+  animation: fadeInRight;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.fadeinLeft-class {
+  opacity: 0;
+  animation: fadeInLeft;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.fadeinDown-class {
+  opacity: 0;
+  animation: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+

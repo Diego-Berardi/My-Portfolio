@@ -4,7 +4,7 @@
   button {
     font-size: 1.1rem;
   }
-  
+
   .home-div {
     display: flex;
     flex-direction: column;
@@ -20,6 +20,8 @@
         color: $red-theme;
       }
       .home-btn-div {
+        animation-delay: 2000ms;
+
         margin: 1rem 0;
         display: flex;
         gap: 1rem;
@@ -30,8 +32,25 @@
       flex-direction: column;
       align-items: center;
       gap: 1rem;
+
+      animation-delay: 2500ms;
+
       .CV-container {
         width: 15rem;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 3px;
+          right: 0;
+          left: 0;
+          top: 0;
+          border: white solid 1px;
+        }
+        animation: animateHeart infinite;
+        animation-duration: 4s;
+        animation-delay: 6s !important;
+
         img {
           width: 100%;
         }

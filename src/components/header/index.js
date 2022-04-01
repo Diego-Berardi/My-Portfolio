@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.scss";
+import "./index.scss";
 
 import { useGlobalContext } from "../../context";
 
@@ -11,7 +11,7 @@ const Header = () => {
   const { showMobileMenu, setShowMobileMenu } = useGlobalContext();
 
   return (
-    <header className="header container noselect">
+    <header className="header container noselect fadeinDown-class">
       <div className="logo">
         <a href="#home">
           <p className="link">DB</p>

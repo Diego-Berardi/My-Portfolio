@@ -1,5 +1,5 @@
 import React from "react";
-import "./work-section.scss";
+import "./index.scss";
 
 // imgs
 import netflixImg from "../../assets/img/netflix2.png";

@@ -1,8 +1,8 @@
 import React from "react";
-import "./contact-me-section.scss";
+import "./index.scss";
 
 //components
-import Form from "../form/Form";
+import Form from "../form";
 
 const AboutMeSection = () => {
   return (

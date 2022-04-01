@@ -4,6 +4,8 @@ import "./assets/scss/index.scss";
 import App from "./App";
 
 import { AppProvider } from "./context";
+import "animate.css";
+
 
 ReactDOM.render(
   <AppProvider>

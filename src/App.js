@@ -1,8 +1,8 @@
-import Header from "./components/header/Header";
-import MobileMenu from "./components/mobileMenu/MobileMenu";
-import HomeSection from "./components/homeSection/HomeSection";
-import WorkSection from "./components/workSection/WorkSection";
-import ContactMeSection from "./components/contactMeSection/ContactMeSection";
+import Header from "./components/header";
+import MobileMenu from "./components/mobileMenu";
+import HomeSection from "./components/homeSection";
+import WorkSection from "./components/workSection";
+import ContactMeSection from "./components/contactMeSection";
 
 function App() {
   return (

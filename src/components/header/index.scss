@@ -12,6 +12,8 @@
   font-size: 1.2rem;
   font-weight: 500;
 
+  animation-delay: 3000ms !important;
+
   .logo {
     display: flex;
     justify-content: center;
@@ -35,7 +37,6 @@
     justify-content: space-between;
     gap: 1rem;
     list-style-type: none;
-    
   }
 }
 

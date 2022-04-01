@@ -1,5 +1,5 @@
 import React from "react";
-import "./mobile-menu.scss";
+import "./index.scss";
 
 import { useGlobalContext } from "../../context";
 
