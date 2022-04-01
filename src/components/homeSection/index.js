@@ -32,6 +32,7 @@ const HomeSection = () => {
               arrLetters={["J", "u", "n", "i", "o", "r"]}
               index={13}
             />{" "}
+            
             <AnimatedLetter
               letterClass={letterClass}
               arrLetters={["F", "r", "o", "n", "t"]}
@@ -41,7 +42,7 @@ const HomeSection = () => {
               letterClass={letterClass}
               arrLetters={["E", "n", "d"]}
               index={24}
-            />{" "}
+            />{" "}<br className="br_1"/>
             <AnimatedLetter
               letterClass={letterClass}
               arrLetters={["D", "e", "v", "e", "l", "o", "p", "e", "r"]}
