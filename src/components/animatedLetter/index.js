@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.scss";
 
-const AnimatedLetter = ({ letterClass, arrLetters, index }) => {
+const AnimatedLetter = ({ letterClass, setLetterClass, arrLetters, index }) => {
   const removeAnimation = (e) => {
     const currentTarget = e.target;
-    currentTarget.classList.remove("rubberBand");
+
+    if (currentTarget.classList[0] !== "text-animate") return;
+    console.log(currentTarget.classList[0]);
+
     currentTarget.classList.remove("text-animate");
+    currentTarget.classList.remove("rubberBand");
+    currentTarget.addEventListener("animationend", () => {
+      currentTarget.classList.remove("rubberBand");
+      currentTarget.classList.remove("rubberBand2");
+    });
     currentTarget.addEventListener("mouseover", () =>
       currentTarget.classList.add("rubberBand")
     );
     currentTarget.addEventListener("click", () =>
       currentTarget.classList.add("rubberBand")
     );
-    
   };
 
   return (

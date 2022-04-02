@@ -5,6 +5,37 @@
   animation-direction: normal;
   animation-fill-mode: both;
 }
+.rubberBand2 {
+  display: inline-block;
+  animation: rubberBand1 1300ms ease-in-out;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+@for $i from 1 through 50 {
+  .rubberBand2._#{$i} {
+    animation-delay: #{$i / 10}s;
+  }
+}
+
+.text-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+
+@for $i from 1 through 50 {
+  .text-animate._#{$i} {
+    animation-delay: #{$i / 10}s;
+  }
+}
+
+
 
 .fadeinRight-class {
   opacity: 0;
@@ -28,5 +59,3 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-
-

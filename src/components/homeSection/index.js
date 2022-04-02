@@ -9,6 +9,13 @@ import AnimatedLetter from "../animatedLetter";
 const HomeSection = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
 
+  useEffect(() => {
+    return setInterval(() => {
+      setLetterClass(" ");
+
+      setLetterClass("rubberBand2 ");
+    }, 15000);
+  }, []);
   return (
     <section id="home" className="home-section container">
       <div className="home-div">
@@ -16,11 +23,13 @@ const HomeSection = () => {
           <h1 className="title-name noselect">
             <AnimatedLetter
               letterClass={letterClass}
+              setLetterClass={setLetterClass}
               arrLetters={["D", "i", "e", "g", "o"]}
               index={1}
             />{" "}
             <AnimatedLetter
               letterClass={letterClass}
+              setLetterClass={setLetterClass}
               arrLetters={["B", "e", "r", "a", "r", "d", "i"]}
               index={6}
             />
@@ -29,22 +38,26 @@ const HomeSection = () => {
           <p className="noselect">
             <AnimatedLetter
               letterClass={letterClass}
+              setLetterClass={setLetterClass}
               arrLetters={["J", "u", "n", "i", "o", "r"]}
               index={13}
             />{" "}
-            
             <AnimatedLetter
               letterClass={letterClass}
+              setLetterClass={setLetterClass}
               arrLetters={["F", "r", "o", "n", "t"]}
               index={19}
             />{" "}
             <AnimatedLetter
               letterClass={letterClass}
+              setLetterClass={setLetterClass}
               arrLetters={["E", "n", "d"]}
               index={24}
-            />{" "}<br className="br_1"/>
+            />{" "}
+            <br className="br_1" />
             <AnimatedLetter
               letterClass={letterClass}
+              setLetterClass={setLetterClass}
               arrLetters={["D", "e", "v", "e", "l", "o", "p", "e", "r"]}
               index={27}
             />
