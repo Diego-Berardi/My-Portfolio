@@ -35,7 +35,7 @@
   }
 }
 
-
+  
 
 .fadeinRight-class {
   opacity: 0;
@@ -57,5 +57,11 @@
   opacity: 0;
   animation: fadeInDown;
   animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.headShake-class {
+  animation: headShake;
+  animation-duration: 1s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
 }

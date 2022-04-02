@@ -10,12 +10,14 @@ const HomeSection = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
 
   useEffect(() => {
-    return setInterval(() => {
+    const interval = setInterval(() => {
       setLetterClass(" ");
 
       setLetterClass("rubberBand2 ");
     }, 15000);
+    return () => clearInterval(interval);
   }, []);
+  
   return (
     <section id="home" className="home-section container">
       <div className="home-div">
@@ -76,9 +78,11 @@ const HomeSection = () => {
           </div>
         </div>
         <div className="CV-div fadeinRight-class">
-          <div className="CV-container">
-            <img src={CVImg} alt="" />
-          </div>
+          <a href={CVpdf} target="_blank" className="   ">
+            <div className="CV-container headShake-class">
+              <img src={CVImg} alt="" />
+            </div>
+          </a>
           <a
             href={CVpdf}
             target="_blank"

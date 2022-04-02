@@ -4,9 +4,7 @@ import "./index.scss";
 const AnimatedLetter = ({ letterClass, setLetterClass, arrLetters, index }) => {
   const removeAnimation = (e) => {
     const currentTarget = e.target;
-
     if (currentTarget.classList[0] !== "text-animate") return;
-    console.log(currentTarget.classList[0]);
 
     currentTarget.classList.remove("text-animate");
     currentTarget.classList.remove("rubberBand");

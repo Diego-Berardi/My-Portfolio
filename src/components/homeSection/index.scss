@@ -38,6 +38,10 @@
       .CV-container {
         width: 15rem;
         position: relative;
+        transition: transform 150ms ease-in-out;
+        &:hover {
+          transform: scale3d(1.02, 1.02, 1);
+        }
         &::before {
           content: "";
           position: absolute;
@@ -87,6 +91,13 @@
     .home-div {
       gap: 8rem;
     }
+    
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  .home-section {
+    
     br {
       display: none;
     }
