@@ -34,7 +34,6 @@ const AboutMeSection = () => {
             <FaReact className="react" /> <SiSass className="sass" />{" "}
             <AiOutlineGithub className="" />
           </div>
-          {/* <p>Skills: HTML, CSS, Sass, JavaScript, React js, Git/GitHub.</p> */}
         </div>
       </div>
       <div

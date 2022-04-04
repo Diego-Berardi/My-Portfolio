@@ -13,7 +13,10 @@
   }
   .incons-div {
     font-size: 3rem;
-    margin: 2rem;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: .6rem;
 
     .html {
       color: #e34c26;
