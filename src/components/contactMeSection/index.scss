@@ -4,94 +4,31 @@
   padding: 4rem 0;
   margin: 2rem auto;
 
-  // display: flex;
-  // & > * {
-  //   width: 50%;
-  //   padding: 1rem ;
-  // }
-
   h2 {
     margin: 2rem 0;
     text-align: center;
   }
-  // .about-me-div {
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: space-between;
-  // }
-}
+  p span {
+    color: $red-theme;
+  }
+  .incons-div {
+    font-size: 3rem;
+    margin: 2rem;
 
-.education-div {
-  display: flex;
-  justify-content: center;
-  font-size: 17px !important;
-  .timeline-div {
-    background-color: #353535;
-    width: 300px;
-    height: 1px;
-    margin: 4rem 0;
-    position: relative;
-    .year-outside {
-      position: absolute;
-      
-      transform: translateY(50%);
+    .html {
+      color: #e34c26;
     }
-
-    .year-21 {
-      bottom: -30px;
-      left: 55px;
+    .css {
+      color: #0033ff;
     }
-    .year-22 {
-      bottom: -30px;
-      left: 205px;
+    .javascript {
+      color: rgb(255, 200, 0);
     }
-
-    .year-inside {
-      position: relative;
-      width: 38px;
+    .react {
+      color: #61dbfb;
     }
-    .year-inside::before {
-      content: "";
-      position: absolute;
-      top: -100%;
-      left: 50%;
-      width: 1px;
-      height: 15px;
-      background-color: #353535;
-    }
-
-    .highSchool {
-      position: absolute;
-      width: 150px;
-      height: 5px;
-      top: -10px;
-      left: 0px;
-
-      background-color: rgb(0, 106, 255);
-    }
-    .highSchool::before {
-      content: 'liceo peano';
-      position: absolute;
-      top: -20px;
-      left: 0px;
-    }
-    .start2impact {
-      position: absolute;
-      width: 150px;
-      height: 5px;
-      top: -40px;
-      left: 90px;
-
-      background-color: rgb(0, 255, 38);
-    }
-    .university {
-      position: absolute;
-      width: 115px;
-      height: 5px;
-      top: -10px;
-      left: 185px;
-
-      background-color: rgb(255, 196, 0);
+    .sass {
+      color: #cd6799;
     }
   }
 }
@@ -101,7 +38,7 @@
     display: flex;
     & > * {
       width: 50%;
-      padding: 0 2rem ;
+      padding: 0 2rem;
     }
   }
 }
