@@ -28,11 +28,27 @@ const AboutMeSection = () => {
             <span> Junior Front-End developer.</span>
           </p>
           <br />
-          <div className="incons-div">
-            <AiFillHtml5 className="html" /> <IoLogoCss3 className="css" />{" "}
-            <IoLogoJavascript className="javascript" />{" "}
-            <FaReact className="react" /> <SiSass className="sass" />{" "}
-            <AiOutlineGithub className="" />
+          <div className="cube-div">
+            <div class="cube">
+              <div class="face1">
+                <AiFillHtml5 className="html" />
+              </div>
+              <div class="face2">
+                <IoLogoCss3 className="css" />
+              </div>
+              <div class="face3">
+                <IoLogoJavascript className="javascript" />
+              </div>
+              <div class="face4">
+                <AiOutlineGithub className="" />
+              </div>
+              <div class="face5">
+                <FaReact className="react" />
+              </div>
+              <div class="face6">
+                <SiSass className="sass" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
