@@ -11,8 +11,20 @@ import ticTacToeImg from "../../assets/img/TicTacToe.png";
 const WorkSection = () => {
   return (
     <section id="work" className="work-section container">
-      <h2 className="title">My Projects</h2>
-      <article className="project ">
+      <h2
+        className="title"
+        data-aos="fade-down"
+        data-aos-duration="1300"
+        data-aos-once="true"
+      >
+        My Projects
+      </h2>
+      <article
+        className="project "
+        data-aos="fade-right"
+        data-aos-duration="1300"
+        data-aos-once="true"
+      >
         <h3>Netflix Clone</h3>
         <div className="div-info">
           <p>
@@ -47,7 +59,12 @@ const WorkSection = () => {
           <img src={netflixImg} alt="" />
         </div>
       </article>
-      <article className="project ">
+      <article
+        className="project "
+        data-aos="fade-left"
+        data-aos-duration="1300"
+        data-aos-once="true"
+      >
         <h3>The New York Times Clone Clone</h3>
         <div className="div-info">
           <p>
@@ -81,7 +98,12 @@ const WorkSection = () => {
           <img src={theNewYorkTimesImg} alt="" />
         </div>
       </article>
-      <article className="project ">
+      <article
+        className="project "
+        data-aos="fade-right"
+        data-aos-duration="1300"
+        data-aos-once="true"
+      >
         <h3>Hacker News</h3>
         <div className="div-info">
           <p>
@@ -115,7 +137,12 @@ const WorkSection = () => {
           <img src={hackerNewsImg} alt="" />
         </div>
       </article>
-      <article className="project ">
+      <article
+        className="project "
+        data-aos="fade-left"
+        data-aos-duration="1300"
+        data-aos-once="true"
+      >
         <h3>Calculator JavaScript</h3>
         <div className="div-info">
           <p>Simple calculator built with HTML, CSS and JavaScript</p>
@@ -143,7 +170,12 @@ const WorkSection = () => {
           <img src={calculatorImg} alt="" />
         </div>
       </article>
-      <article className="project ">
+      <article
+        className="project "
+        data-aos="fade-right"
+        data-aos-duration="1300"
+        data-aos-once="true"
+      >
         <h3>Tic Tac Toe Game VS A.I.</h3>
         <div className="div-info">
           <p>

@@ -7,7 +7,12 @@ import Form from "../form";
 const AboutMeSection = () => {
   return (
     <section id="contact-me" className="contact-me-section container">
-      <div className="about-me-div">
+      <div
+        className="about-me-div"
+        data-aos="fade-right"
+        data-aos-duration="1300"
+        data-aos-once="true"
+      >
         <div>
           <h2>About me</h2>
           <p>
@@ -19,23 +24,13 @@ const AboutMeSection = () => {
           <br />
           <p>Skills: HTML, CSS, Sass, JavaScript, React js, Git/GitHub.</p>
         </div>
-        {/* <div className="education-div">
-          <div className="timeline-div">
-            <div className="highSchool"></div>
-            <div className="start2impact"></div>
-            <div className="university"></div>
-            <div className="year-outside year-22">
-              {" "}
-              <div className=" year-inside">2022</div>{" "}
-            </div>
-            <div className="year-outside year-21">
-              {" "}
-              <div className=" year-inside">2021</div>{" "}
-            </div>
-          </div>
-        </div> */}
       </div>
-      <div className="contact-me-div">
+      <div
+        className="contact-me-div"
+        data-aos="fade-left"
+        data-aos-duration="1300"
+        data-aos-once="true"
+      >
         <h2>Contact Me</h2>
         <Form />
       </div>

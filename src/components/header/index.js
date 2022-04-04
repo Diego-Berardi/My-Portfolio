@@ -11,7 +11,12 @@ const Header = () => {
   const { showMobileMenu, setShowMobileMenu } = useGlobalContext();
 
   return (
-    <header className="header container noselect fadeinDown-class">
+    <header
+      className="header container noselect "
+      data-aos="fade-down"
+      data-aos-duration="1300"
+      data-aos-delay="3000"
+    >
       <div className="logo">
         <a href="#home">
           <p className="link">DB</p>

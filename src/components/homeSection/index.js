@@ -65,7 +65,12 @@ const HomeSection = () => {
             />
           </p>
 
-          <div className="home-btn-div fadeinLeft-class">
+          <div
+            className="home-btn-div "
+            data-aos="fade-right"
+            data-aos-delay="2000"
+            data-aos-duration="1300"
+          >
             <a
               href="#contact-me"
               className="btn btn-style-red  btn-basic-white "
@@ -77,7 +82,12 @@ const HomeSection = () => {
             </a>
           </div>
         </div>
-        <div className="CV-div fadeinRight-class">
+        <div
+          className="CV-div "
+          data-aos="fade-left"
+          data-aos-delay="2500"
+          data-aos-duration="1300"
+        >
           <a href={CVpdf} target="_blank" className="   ">
             <div className="CV-container headShake-class">
               <img src={CVImg} alt="" />
