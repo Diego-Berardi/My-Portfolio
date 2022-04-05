@@ -31,7 +31,7 @@ const AboutMeSection = () => {
           <div className="cube-div">
             <div class="cube">
               <div class="face1">
-                <AiFillHtml5 className="html" />
+                <FaReact className="react" />
               </div>
               <div class="face2">
                 <IoLogoCss3 className="css" />
@@ -43,7 +43,7 @@ const AboutMeSection = () => {
                 <AiOutlineGithub className="" />
               </div>
               <div class="face5">
-                <FaReact className="react" />
+                <AiFillHtml5 className="html" />
               </div>
               <div class="face6">
                 <SiSass className="sass" />

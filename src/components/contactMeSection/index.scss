@@ -40,13 +40,12 @@
     height: 100px;
 
     animation-name: spincube;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 30s;
-    animation-direction: alternate;
     transform-style: preserve-3d;
-
     transform-origin: 50px 50px 0;
+
     div {
       position: absolute;
       width: 100px;

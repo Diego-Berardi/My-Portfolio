@@ -34,12 +34,6 @@
   }
 }
 
-.headShake-class {
-  animation: headShake;
-  animation-duration: 1s;
-  animation-delay: 5s;
-  animation-fill-mode: forwards;
-}
 
 @keyframes spincube {
   from,
@@ -48,7 +42,7 @@
   }
 
   100% {
-    transform: rotateX(360deg) rotateY(180deg) rotateZ(360deg);
+    transform: rotateX(270deg) rotateY(180deg) rotateZ(270deg);
   }
 
   100% {
