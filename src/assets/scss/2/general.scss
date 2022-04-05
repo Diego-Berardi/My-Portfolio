@@ -7,9 +7,12 @@
 }
 html {
   scroll-behavior: smooth;
+  width: 100vw;
+  overflow-x: hidden !important;
 }
 
 body {
+  overflow-x: hidden !important;
   background-color: $backGround-color;
   color: $text-color;
 }
