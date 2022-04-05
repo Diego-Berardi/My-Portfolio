@@ -8,6 +8,9 @@ import hackerNewsImg from "../../assets/img/hackerNews.png";
 import calculatorImg from "../../assets/img/calculator.png";
 import ticTacToeImg from "../../assets/img/TicTacToe.png";
 
+//components
+import ProjectComponent from "../projectComponent";
+
 const WorkSection = () => {
   return (
     <section id="work" className="work-section container">
@@ -19,193 +22,61 @@ const WorkSection = () => {
       >
         My Projects
       </h2>
-      <article
-        className="project "
-        data-aos="fade-right"
-        data-aos-duration="1300"
-        data-aos-once="true"
-      >
-        <h3>Netflix Clone</h3>
-        <div className="div-info">
-          <p>
-            This is the final projects for Start2Impact, is a website that look
+      <ProjectComponent
+        fadeInAni={"fade-right"}
+        title={"Netflix Clone"}
+        textP={`This is the final projects for Start2Impact, is a website that look
             like Netflix where you can search Movies, Tv Shows see the info, the
             cast and save it in your list. <br /> The project is developed with
-            The Movie Database's api:{" "}
-            <a href="https://www.themoviedb.org/" target="_blank">
-              https://www.themoviedb.org/
-            </a>
-          </p>
-          <p>- React js</p>
-          <div className="div-btn">
-            <a
-              target="_blank"
-              href="https://netflix-clone-database.netlify.app/"
-              className="btn
-              btn-basic-white btn-style-red"
-            >
-              See Website
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/Diego-Berardi/Netflix-clone"
-              className="btn btn-basic-white"
-            >
-              See GitHub
-            </a>
-          </div>
-        </div>
-        <div className="img-container">
-          <img src={netflixImg} alt="" />
-        </div>
-      </article>
-      <article
-        className="project "
-        data-aos="fade-left"
-        data-aos-duration="1300"
-        data-aos-once="true"
-      >
-        <h3>The New York Times Clone Clone</h3>
-        <div className="div-info">
-          <p>
-            This is the React project for Start2Ipact, this website is a clone
-            of the New York Times. I developed the project with the NYT's api:{" "}
-            <a href="https://developer.nytimes.com/get-started" target="_blank">
-              https://developer.nytimes.com/get-started
-            </a>
-          </p>
-          <p>- React js</p>
+            The Movie Database's api: `}
+        linkApi={"https://www.themoviedb.org/"}
+        technologies={"- React js"}
+        linkProject={"https://netflix-clone-database.netlify.app/"}
+        linkGitHub={"https://github.com/Diego-Berardi/Netflix-clone"}
+        imgProject={netflixImg}
+      />
+      <ProjectComponent
+        fadeInAni={"fade-left"}
+        title={"The New York Times Clone Clone"}
+        textP={`This is the React project for Start2Ipact, this website is a clone
+            of the New York Times. I developed the project with the NYT's api:`}
+        linkApi={"https://new-york-times-clone.netlify.app/"}
+        technologies={"- React js"}
+        linkProject={"https://new-york-times-clone.netlify.app/"}
+        linkGitHub={"https://github.com/Diego-Berardi/NYT-clone-Start2Impact"}
+        imgProject={theNewYorkTimesImg}
+      />
 
-          <div className="div-btn">
-            <a
-              target="_blank"
-              href="https://new-york-times-clone.netlify.app/"
-              className="btn
-              btn-basic-white btn-style-red"
-            >
-              See Website
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/Diego-Berardi/NYT-clone-Start2Impact"
-              className="btn btn-basic-white"
-            >
-              See GitHub
-            </a>
-          </div>
-        </div>
-        <div className="img-container">
-          <img src={theNewYorkTimesImg} alt="" />
-        </div>
-      </article>
-      <article
-        className="project "
-        data-aos="fade-right"
-        data-aos-duration="1300"
-        data-aos-once="true"
-      >
-        <h3>Hacker News</h3>
-        <div className="div-info">
-          <p>
-            This is the JavaScript Advance project for Start2Ipact, this website
-            show the last tech related news. I take the news from this api:{" "}
-            <a href="https://github.com/HackerNews/API" target="_blank">
-              https://github.com/HackerNews/API
-            </a>
-          </p>
-          <p>- HTML, CSS, JavaScript</p>
-
-          <div className="div-btn">
-            <a
-              target="_blank"
-              href="https://hacker-news-start2impact.netlify.app/"
-              className="btn
-              btn-basic-white btn-style-red"
-            >
-              See Website
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/Diego-Berardi/hacker-news-Start2Impact"
-              className="btn btn-basic-white"
-            >
-              See GitHub
-            </a>
-          </div>
-        </div>
-        <div className="img-container">
-          <img src={hackerNewsImg} alt="" />
-        </div>
-      </article>
-      <article
-        className="project "
-        data-aos="fade-left"
-        data-aos-duration="1300"
-        data-aos-once="true"
-      >
-        <h3>Calculator JavaScript</h3>
-        <div className="div-info">
-          <p>Simple calculator built with HTML, CSS and JavaScript</p>
-          <p>- HTML, CSS, JavaScript</p>
-
-          <div className="div-btn">
-            <a
-              target="_blank"
-              href="https://diego-berardi.github.io/Simple-Calculator/"
-              className="btn
-              btn-basic-white btn-style-red"
-            >
-              See Website
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/Diego-Berardi/Simple-Calculator"
-              className="btn btn-basic-white"
-            >
-              See GitHub
-            </a>
-          </div>
-        </div>
-        <div className="img-container">
-          <img src={calculatorImg} alt="" />
-        </div>
-      </article>
-      <article
-        className="project "
-        data-aos="fade-right"
-        data-aos-duration="1300"
-        data-aos-once="true"
-      >
-        <h3>Tic Tac Toe Game VS A.I.</h3>
-        <div className="div-info">
-          <p>
-            Basic Tic Tac Toe game. You can choose to play in 2 players or alone
-            vs the unbeateble AI
-          </p>
-          <p>- HTML, CSS, JavaScript</p>
-
-          <div className="div-btn">
-            <a
-              target="_blank"
-              href="https://diego-berardi.github.io/Tic-Tac-Toe/"
-              className="btn
-              btn-basic-white btn-style-red"
-            >
-              See Website
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/Diego-Berardi/Tic-Tac-Toe"
-              className="btn btn-basic-white"
-            >
-              See GitHub
-            </a>
-          </div>
-        </div>
-        <div className="img-container">
-          <img src={ticTacToeImg} alt="" />
-        </div>
-      </article>
+      <ProjectComponent
+        fadeInAni={"fade-right"}
+        title={"Hacker News"}
+        textP={`This is the JavaScript Advance project for Start2Ipact, this website
+            show the last tech related news. I take the news from this api: `}
+        linkApi={"https://github.com/HackerNews/API"}
+        technologies={"- HTML CSS JavaScript"}
+        linkProject={"https://hacker-news-start2impact.netlify.app/"}
+        linkGitHub={"https://github.com/Diego-Berardi/hacker-news-Start2Impact"}
+        imgProject={hackerNewsImg}
+      />
+      <ProjectComponent
+        fadeInAni={"fade-left"}
+        title={"Calculator JavaScript"}
+        textP={`Simple calculator built with HTML, CSS and JavaScript `}
+        technologies={"- HTML CSS JavaScript"}
+        linkProject={"https://diego-berardi.github.io/Simple-Calculator/"}
+        linkGitHub={"https://github.com/Diego-Berardi/Simple-Calculator"}
+        imgProject={calculatorImg}
+      />
+      <ProjectComponent
+        fadeInAni={"fade-right"}
+        title={"Tic Tac Toe Game VS A.I."}
+        textP={`Basic Tic Tac Toe game. You can choose to play in 2 players or alone
+            vs the unbeateble AI `}
+        technologies={"- HTML CSS JavaScript"}
+        linkProject={"https://diego-berardi.github.io/Tic-Tac-Toe/"}
+        linkGitHub={"https://github.com/Diego-Berardi/Tic-Tac-Toe"}
+        imgProject={ticTacToeImg}
+      />
     </section>
   );
 };
