@@ -27,7 +27,7 @@ const AnimatedLetter = ({ letterClass, setLetterClass, arrLetters, index }) => {
           <span
             onAnimationEnd={removeAnimation}
             key={elem + i + index}
-            className={`${letterClass}  _${i + index} `}
+            className={`${letterClass}  _${i + index} letter  `}
           >
             {elem}
           </span>

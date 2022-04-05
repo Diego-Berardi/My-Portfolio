@@ -25,9 +25,9 @@ const WorkSection = () => {
       <ProjectComponent
         fadeInAni={"fade-right"}
         title={"Netflix Clone"}
-        textP={`This is the final projects for Start2Impact, is a website that look
+        textP={`Final projects for Start2Impact, is a website that look
             like Netflix where you can search Movies, Tv Shows see the info, the
-            cast and save it in your list. <br /> The project is developed with
+            cast and save it in your list. The project is developed with
             The Movie Database's api: `}
         linkApi={"https://www.themoviedb.org/"}
         technologies={"- React js"}
@@ -38,8 +38,8 @@ const WorkSection = () => {
       <ProjectComponent
         fadeInAni={"fade-left"}
         title={"The New York Times Clone Clone"}
-        textP={`This is the React project for Start2Ipact, this website is a clone
-            of the New York Times. I developed the project with the NYT's api:`}
+        textP={`React project for Start2Ipact, this website is a clone
+            of the New York Times. The project is developed with the NYT's api:`}
         linkApi={"https://new-york-times-clone.netlify.app/"}
         technologies={"- React js"}
         linkProject={"https://new-york-times-clone.netlify.app/"}
@@ -50,8 +50,8 @@ const WorkSection = () => {
       <ProjectComponent
         fadeInAni={"fade-right"}
         title={"Hacker News"}
-        textP={`This is the JavaScript Advance project for Start2Ipact, this website
-            show the last tech related news. I take the news from this api: `}
+        textP={`JavaScript Advance project for Start2Ipact, this website
+            show the last tech related news. The project is developed with the HackerNews's api: `}
         linkApi={"https://github.com/HackerNews/API"}
         technologies={"- HTML CSS JavaScript"}
         linkProject={"https://hacker-news-start2impact.netlify.app/"}

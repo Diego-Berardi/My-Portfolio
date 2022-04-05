@@ -1,0 +1,12 @@
+@import "../../assets/scss/index.scss";
+
+
+.letter{
+    transition: color 150ms ease-in-out;
+}
+
+.letter:hover {
+
+  color: $red-theme;
+
+}

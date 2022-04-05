@@ -46,7 +46,9 @@ const ProjectComponent = ({
         </div>
       </div>
       <div className="img-container">
-        <img src={imgProject} alt="" />
+        <a target="_blank" href={linkProject} className="">
+          <img src={imgProject} alt="" />
+        </a>
       </div>
     </article>
   );

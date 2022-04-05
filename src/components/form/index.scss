@@ -42,6 +42,7 @@ form {
   }
   .form-input:focus {
     border: $red-theme solid 1px;
+    box-shadow: 0 0 5px 0 $red-theme;
   }
 
   .button {
