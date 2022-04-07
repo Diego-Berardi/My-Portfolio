@@ -11,6 +11,7 @@ const ProjectComponent = ({
   linkGitHub,
   imgProject,
 }) => {
+  
   return (
     <article
       className="project "
@@ -30,7 +31,12 @@ const ProjectComponent = ({
             ""
           )}
         </p>
-        <p>{technologies}</p>
+        <div className="div-technologies">
+          {technologies.map((elem, i) => {
+            
+            return elem;
+          })}
+        </div>
         <div className="div-btn">
           <a
             target="_blank"

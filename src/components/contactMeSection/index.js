@@ -29,23 +29,23 @@ const AboutMeSection = () => {
           </p>
           <br />
           <div className="cube-div">
-            <div class="cube">
-              <div class="face1">
+            <div className="cube">
+              <div className="face1">
                 <FaReact className="react" />
               </div>
-              <div class="face2">
+              <div className="face2">
                 <IoLogoCss3 className="css" />
               </div>
-              <div class="face3">
+              <div className="face3">
                 <IoLogoJavascript className="javascript" />
               </div>
-              <div class="face4">
+              <div className="face4">
                 <AiOutlineGithub className="" />
               </div>
-              <div class="face5">
+              <div className="face5">
                 <AiFillHtml5 className="html" />
               </div>
-              <div class="face6">
+              <div className="face6">
                 <SiSass className="sass" />
               </div>
             </div>
