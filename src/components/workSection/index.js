@@ -108,6 +108,21 @@ const WorkSection = () => {
         linkGitHub={"https://github.com/Diego-Berardi/Chess-game"}
         imgProject={chessGameImg}
       />
+        <ProjectComponent
+          fadeInAni={"fade-right"}
+          title={"Tic Tac Toe Game VS A.I."}
+          textP={`Basic Tic Tac Toe game. You can choose to play in 2 players or alone
+              vs the unbeateble artificial inteligence. The A.I. is developed with the Minimax algorthm. `}
+          technologies={[
+            <AiFillHtml5 className="html" key="html" />,
+            <IoLogoCss3 className="css" key="css" />,
+            <IoLogoJavascript className="javascript" key="javascript" />,
+          ]}
+          linkProject={"https://diego-berardi.github.io/Tic-Tac-Toe/"}
+          linkGitHub={"https://github.com/Diego-Berardi/Tic-Tac-Toe"}
+          imgProject={ticTacToeImg}
+        />
+
       <ProjectComponent
         fadeInAni={"fade-left"}
         title={"Calculator JavaScript"}
@@ -120,20 +135,6 @@ const WorkSection = () => {
         linkProject={"https://diego-berardi.github.io/Simple-Calculator/"}
         linkGitHub={"https://github.com/Diego-Berardi/Simple-Calculator"}
         imgProject={calculatorImg}
-      />
-      <ProjectComponent
-        fadeInAni={"fade-right"}
-        title={"Tic Tac Toe Game VS A.I."}
-        textP={`Basic Tic Tac Toe game. You can choose to play in 2 players or alone
-            vs the unbeateble AI `}
-        technologies={[
-          <AiFillHtml5 className="html" key="html" />,
-          <IoLogoCss3 className="css" key="css" />,
-          <IoLogoJavascript className="javascript" key="javascript" />,
-        ]}
-        linkProject={"https://diego-berardi.github.io/Tic-Tac-Toe/"}
-        linkGitHub={"https://github.com/Diego-Berardi/Tic-Tac-Toe"}
-        imgProject={ticTacToeImg}
       />
     </section>
   );
