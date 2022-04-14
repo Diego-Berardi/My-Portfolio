@@ -109,7 +109,7 @@ const WorkSection = () => {
         imgProject={chessGameImg}
       />
         <ProjectComponent
-          fadeInAni={"fade-right"}
+          fadeInAni={"fade-left"}
           title={"Tic Tac Toe Game VS A.I."}
           textP={`Basic Tic Tac Toe game. You can choose to play in 2 players or alone
               vs the unbeateble artificial inteligence. The A.I. is developed with the Minimax algorthm. `}
@@ -124,7 +124,7 @@ const WorkSection = () => {
         />
 
       <ProjectComponent
-        fadeInAni={"fade-left"}
+        fadeInAni={"fade-right"}
         title={"Calculator JavaScript"}
         textP={`Simple calculator built with HTML, CSS and JavaScript `}
         technologies={[
