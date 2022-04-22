@@ -104,7 +104,7 @@ const WorkSection = () => {
           <IoLogoCss3 className="css" key="css" />,
           <IoLogoJavascript className="javascript" key="javascript" />,
         ]}
-        linkProject={"https://diego-berardi.github.io/Chess-Game/"}
+        linkProject={"https://chess-game-1vs1.netlify.app/"}
         linkGitHub={"https://github.com/Diego-Berardi/Chess-game"}
         imgProject={chessGameImg}
       />
